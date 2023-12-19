@@ -7,3 +7,18 @@
         display: flex;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .myName {
+        font-size: 2rem !important;
+        text-align: center !important;
+    }
+
+    #profile {
+        margin-top: 100px !important;
+    }
+
+    .profile-para {
+        text-align: center;
+    }
+}
